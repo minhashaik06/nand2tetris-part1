@@ -7,5 +7,5 @@ CHIP Mux {
     And(a=a,b=notsel,out=anotsel);
     And(a=b,b=sel,out=bsel);
     Or(a=anotsel,b=bsel,out=out);
-    ///****////
+    ///***///
 }

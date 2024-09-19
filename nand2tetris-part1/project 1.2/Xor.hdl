@@ -8,5 +8,5 @@ CHIP Xor {
     And(a=nota,b=b,out=t1);
     And(a=a,b=notb,out=t2);
     Or(a=t1,b=t2,out=out);
-    ////*****///
+    ///***///
 }
